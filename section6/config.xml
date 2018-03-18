@@ -84,4 +84,7 @@
     <allow-navigation href="http://10.24.108.236:8100" />
     <engine name="ios" spec="4.5.4" />
     <engine name="android" spec="^6.2.2" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="To locate your ass" />
+    </plugin>
 </widget>
